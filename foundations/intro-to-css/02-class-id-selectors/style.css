@@ -1,0 +1,23 @@
+.odd-numbers{
+    background-color: rgb(238, 146, 159);
+    font-family: Verdana, sans-serif, "DejaVu Sans";
+}
+/* example for classes in css */
+/* example for fallback in font-family. if a browser can't load Verdana font then it will go to another one */
+
+#one{
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+/* example for id in css. the only difference b/w id and class is that an element can have only 1 Id */
+
+.two{
+    background-color: rgb(11, 237, 86);
+    font-weight: bold;
+}
+
+.font,
+.two{
+    font-size: 24px;
+}
+/* exmaple for using a same property for 2 or more different classes */
